@@ -36,4 +36,3 @@ export const generateTypes = async (url: string, name: string) => {
     (err) => {console.error(err);}
   );
 };
-

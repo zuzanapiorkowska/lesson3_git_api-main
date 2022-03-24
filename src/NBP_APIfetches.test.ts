@@ -38,7 +38,6 @@ test.skip("gets data of current EUR course", async () => {
 });
 
 
-//   const USDdata: CurrencyRate = {
 interface ICurrencyRate {
   table: Tables;
   currency: string;
@@ -54,19 +53,4 @@ interface IRate {
 
 type Tables = "A"|"B"|"C"
 type Currency = "USD"|"EUR"
-
-//instancjonuję input, bo musze wybrac sobie język, bo quicktype też działa dla C#, javy etc/
-// póżniej dodaję źródło - plik źródłowy
-// później tworzę kolejny obiekt, do którego później przekazuję wiele json inputów
-//później wołam awaitem funckję quicktype
-// renderer-options - jeśli tego nie przekażę, to zwróci duże rzeczy, które mamy w dupce 
-
-// później ten serializedResult ma SVGFEDiffuseLightingElement, joinuję po linii i znowu powinienem dostać ten sam text
-
-// w path sobie robię gdzie te typy mają się wytworzyć
-
-
-// generateTypes 
-
-//w fetchu możemy też dodać inne rzeczy, np. headery czy coś, co pozwala na autentykację
 
